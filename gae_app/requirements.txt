@@ -1,0 +1,10 @@
+google-api-python-client
+requests
+httplib2
+oauth2client
+pyopenssl
+google-auth
+google-auth-httplib2
+
+Flask==0.12.2
+Werkzeug<0.13.0,>=0.12.0

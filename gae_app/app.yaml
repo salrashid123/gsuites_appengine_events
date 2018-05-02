@@ -1,0 +1,23 @@
+runtime: python27
+api_version: 1
+threadsafe: true
+
+handlers:
+- url: /google1a34ceec516c662e.html
+  static_files: google1a34ceec516c662e.html
+  upload: google1a34ceec516c662e.html
+
+
+- url: /push
+  script: default.app
+  secure: always
+
+- url: /.*
+  script: default.app
+  secure: always
+  #login: required
+
+
+libraries:
+- name: ssl
+  version: latest
